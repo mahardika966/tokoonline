@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toko Online Sederhana</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Toko Online Sederhana</h1>
+      <a href="checkout.html" class="checkout-btn">Checkout 🛒</a>
+    </header>
+
+    <main class="produk-container">
+      <div class="produk">
+        <img src="Bappe.jpg" alt="Produk 1" />
+        <h2>CN BAPPE</h2>
+        <p>Harga: Rp2.000.000</p>
+        <button onclick="addToCart('CN BAPPE', 2000000)">
+          Tambah ke Keranjang
+        </button>
+      </div>
+
+      <div class="produk">
+        <img src="CH.jpg" alt="Produk 2" />
+        <h2>CH</h2>
+        <p>Harga: Rp3.000.000</p>
+        <button onclick="addToCart('CH', 3000000)">Tambah ke Keranjang</button>
+      </div>
+
+      <div class="produk">
+        <img src="stussy.jpg" alt="Produk 3" />
+        <h2>STUSSY</h2>
+        <p>Harga: Rp1.500.000</p>
+        <button onclick="addToCart('STUSSY', 1500000)">
+          Tambah ke Keranjang
+        </button>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
